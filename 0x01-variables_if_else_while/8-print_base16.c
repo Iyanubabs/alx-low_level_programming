@@ -14,7 +14,7 @@ int main(void)
 
 	while (i < 48)
 	{
-		if (i < 10)
+		if(i < 10)
 			putchar(i + '0');
 		else if (i > 41)
 			putchar(i - 10 + 'A');
@@ -22,5 +22,5 @@ int main(void)
 	}
 	putchar(10);
 
-	return(0);
+	return (0);
 }
